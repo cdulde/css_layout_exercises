@@ -1,0 +1,43 @@
+body {
+  width: 800px;
+  margin: auto;
+  padding: 30px;
+  font-size: 0;
+}
+
+.row1, .row2 {
+  display: inline-block;
+  font-size: 0;
+  margin: -1px;
+  border: 1px solid black;
+}
+
+.row1 {
+	height: 200px;
+	width: 50%;
+}
+
+.row2 {
+	height: 300px;
+	width: 33.33%;
+}
+
+.r1c1 {
+  background-color: green;
+}
+
+.r1c2 {
+	background-color: blue;
+}
+
+.r2c1 {
+	background-color: gray;
+}
+
+.r2c2 {
+	background-color: black;
+}
+
+.r2c3 {
+	background-color: orange;
+}
